@@ -16,7 +16,7 @@ int main() {
     while (seconds > 0) {
 
         // Display current time left
-        cout << "Time left: " << seconds << " seconds" << endl;
+        cout << "Time left: " << seconds << " seconds" << "\n";
 
         // Pause the program for 1 second (so it feels like a real timer)
         this_thread::sleep_for(chrono::seconds(1));
