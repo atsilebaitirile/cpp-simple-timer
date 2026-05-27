@@ -26,7 +26,7 @@ int main() {
     }
 
     // When the loop ends, time is up
-    cout << "Time is up!" << endl;
+    cout << "Time is up!" << "\n";
 
     return 0; 
 }
